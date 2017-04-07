@@ -1,0 +1,223 @@
+{% extends "web/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-size: larger;
+            font-weight: bold;
+            color: lightyellow;
+            font-size: 23px;
+            font-family: "Karma", sans-serif
+        }
+
+        .w3-sidenav a {
+            padding: 20px
+        }
+
+        .w3-bar {
+            color: lightyellow;
+            font-weight: bold;
+            font-size: 50px;
+        }
+
+        #HCB_comment_box {
+            color: black;
+            max-width: 100%;
+            background-color: lightskyblue;
+        }
+
+        .w3-container {
+            background-color: lightskyblue;
+        }
+
+    </style>
+
+    <body>
+
+    <header class="w3-container w3-center w3-padding-32">
+        <span class="w3-tag">Welcome to the blog of Karl-Gustav Kessel</span>
+    </header>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+            <div class="w3-quarter">
+                <img src="https://wallpaperscraft.com/image/tiger_stone_lying_big_cats_predator_52901_3840x2160.jpg" alt="Sandwich" style="width:100%">
+                <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="http://hdwallpapershdpics.com/wp-content/uploads/2015/08/free_high_resolution_images_for_download-1.jpg" alt="Steak" style="width:100%">
+                <h3>Let Me Tell You About This Steak</h3>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum
+                    lipsum.</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="http://hdwallpapershdpics.com/wp-content/uploads/2015/08/Winter-Tiger-Wild-Cat-Images.jpg" alt="Cherries" style="width:100%">
+                <h3>Cherries, interrupted</h3>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                <p>What else?</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="http://hdwallpapershdpics.com/wp-content/uploads/2015/08/TS_AnonHP_462882495_01.jpg" alt="Pasta and Wine" style="width:100%">
+                <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+            <div class="w3-quarter">
+                <img src="http://hdwallpapershdpics.com/wp-content/uploads/2015/08/wallpaper-sunset-images-back-217159.jpg" alt="Popsicle" style="width:100%">
+                <h3>All I Need Is a Popsicle</h3>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="http://hdwallpapershdpics.com/wp-content/uploads/2015/08/tree-247122.jpg" alt="Salmon" style="width:100%">
+                <h3>Salmon For Your Skin</h3>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum
+                    lipsum.</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="http://hdwallpapershdpics.com/wp-content/uploads/2015/08/Jennifer-in-Paradi_3204219n.jpg" alt="Sandwich" style="width:100%">
+                <h3>The Perfect Sandwich, A Real Classic</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="http://hdwallpapershdpics.com/wp-content/uploads/2015/08/images-7_kACPBns.jpg" alt="Croissant" style="width:100%">
+                <h3>Le French</h3>
+                <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="w3-row">
+
+            <!-- Blog entries -->
+            <div class="w3-col l8 s12">
+                <!-- Blog entry -->
+
+                <!-- Blog entry -->
+                <div class="w3-card-4 w3-margin w3-white">
+                    <div class="w3-container w3-padding-8">
+                    </div>
+
+                    <div class="w3-container">
+                        <!-- begin wwww.htmlcommentbox.com -->
+                        <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading
+                            comments...
+                        </div>
+                        <link rel="stylesheet" type="text/css"
+                              href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0"/>
+                        <script type="text/javascript" id="hcb"> /*<!--*/
+                        if (!window.hcb_user) {
+                            hcb_user = {};
+                        }
+                        (function () {
+                            var s = document.createElement("script"), l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"), h = "//www.htmlcommentbox.com";
+                            s.setAttribute("type", "text/javascript");
+                            s.setAttribute("src", h + "/jread?page=" + encodeURIComponent(l).replace("+", "%2B") + "&opts=16862&num=10&ts=1488801257210");
+                            if (typeof s != "undefined") document.getElementsByTagName("head")[0].appendChild(s);
+                        })();
+                        /*-->*/ </script>
+                        <!-- end www.htmlcommentbox.com -->
+
+                        <div class="w3-row">
+                            <div class="w3-col m8 s12">
+                            </div>
+                            <div class="w3-col m4 w3-hide-small">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="w3-row">
+                        <div class="w3-col m8 s12">
+                        </div>
+                        <div class="w3-col m4 w3-hide-small">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Pagination -->
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a href="{% url 'blog' %}" class="w3-bar-item w3-button w3-hover-black">1</a>
+                <a href="{% url 'blog2' %}" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="{% url 'blog3' %}" class="w3-bar-item w3-button w3-hover-black">3</a>
+                <a href="{% url 'blog4' %}" class="w3-bar-item w3-button w3-hover-black">4</a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-4">
+        <p>Visit me <a href="https://www.myspace.com">www.myspace.com/</a></p>
+        <div class="wrapper">
+            <i class="fa fa-5x fa-facebook-square"></i>
+            <i class="fa fa-5x fa-twitter-square"></i>
+            <i class="fa fa-5x fa-instagram"></i>
+            <i class="fa fa-5x fa-snapchat-square"></i>
+        </div>
+        <div class="w3-third">
+            <h3>FOOTER</h3>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p>
+            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+        </div>
+
+        <div class="w3-third">
+            <h3>BLOG POSTS</h3>
+            <ul class="w3-ul w3-hoverable">
+                <li class="w3-padding-16">
+                    <img src="https://www.w3schools.com/css/trolltunga.jpg" class="w3-left w3-margin-right"
+                         style="width:150px">
+                    <span class="w3-large">Lorem</span><br>
+                    <span>Sed mattis nunc</span>
+                </li>
+                <li class="w3-padding-16">
+                    <img src="https://www.w3schools.com/css/trolltunga.jpg" class="w3-left w3-margin-right"
+                         style="width:150px">
+                    <span class="w3-large">Ipsum</span><br>
+                    <span>Praes tinci sed</span>
+                </li>
+            </ul>
+        </div>
+        <div class="w3-row-padding w3-padding-32">
+            <div class="w3-third w3-serif">
+                <h3>POPULAR TAGS</h3>
+                <p>
+                    <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span
+                        class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span
+                        class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+                    <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span
+                        class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span
+                        class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+                    <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span
+                        class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span
+                        class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+                    <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span
+                        class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span
+                        class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+                    <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span
+                        class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+{% endblock %}

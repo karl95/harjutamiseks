@@ -1,0 +1,167 @@
+{% extends "web/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <style>
+        body, h1, h2, h3, h4, h5, h6 {
+            font-size: larger;
+            font-weight: bold;
+            color: lightyellow;
+            font-size: 23px;
+            font-family: "Karma", sans-serif
+        }
+
+        .w3-sidenav a {
+            padding: 20px
+        }
+
+        .w3-bar {
+            color: lightyellow;
+            font-weight: bold;
+            font-size: 50px;
+        }
+
+        #HCB_comment_box {
+            color: black;
+            max-width: 100%;
+            background-color: lightskyblue;
+        }
+
+        .w3-container {
+            background-color: lightskyblue;
+        }
+
+    </style>
+
+    <body>
+
+    <header class="w3-container w3-center w3-padding-32">
+        <span class="w3-tag">Welcome to the blog of Karl-Gustav Kessel</span>
+    </header>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+            <div class="w3-quarter">
+                <img src="https://wallpaperscraft.com/image/forest_lake_reflection_island_mist_97668_1366x768.jpg"
+                     alt="Sandwich" style="width:100%">
+                <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="https://wallpaperscraft.com/image/forest_lake_reflection_island_mist_97668_1366x768.jpg"
+                     alt="Steak" style="width:100%">
+                <h3>Let Me Tell You About This Steak</h3>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum
+                    lipsum.</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="https://wallpaperscraft.com/image/forest_lake_reflection_island_mist_97668_1366x768.jpg"
+                     alt="Cherries" style="width:100%">
+                <h3>Cherries, interrupted</h3>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                <p>What else?</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="https://wallpaperscraft.com/image/forest_lake_reflection_island_mist_97668_1366x768.jpg"
+                     alt="Pasta and Wine" style="width:100%">
+                <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+            <div class="w3-quarter">
+                <img src="https://wallpaperscraft.com/image/forest_lake_reflection_island_mist_97668_1366x768.jpg"
+                     alt="Popsicle" style="width:100%">
+                <h3>All I Need Is a Popsicle</h3>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="https://wallpaperscraft.com/image/forest_lake_reflection_island_mist_97668_1366x768.jpg"
+                     alt="Salmon" style="width:100%">
+                <h3>Salmon For Your Skin</h3>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum
+                    lipsum.</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="https://wallpaperscraft.com/image/forest_lake_reflection_island_mist_97668_1366x768.jpg"
+                     alt="Sandwich" style="width:100%">
+                <h3>The Perfect Sandwich, A Real Classic</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="https://wallpaperscraft.com/image/forest_lake_reflection_island_mist_97668_1366x768.jpg"
+                     alt="Croissant" style="width:100%">
+                <h3>Le French</h3>
+                <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32 w3-center">
+            <h3>Mulle meeldivad puumajad</h3><br>
+            <img src="https://wallpaperscraft.com/image/forest_lake_reflection_island_mist_97668_1366x768.jpg" alt="Me"
+                 class="w3-image" style="display:block;margin:auto" width="800"
+                 height="533">
+            <div class="w3-padding-32">
+                <h4><b>I am Who I Am!</b></h4>
+                <h6><i>With Passion For Real, Good Food</i></h6>
+                <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest
+                    of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed
+                    tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non
+                    fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,
+                    ultricies congue gravida diam non fringilla.</p>
+            </div>
+            <!-- begin wwww.htmlcommentbox.com -->
+            <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading
+                comments...
+            </div>
+            <link rel="stylesheet" type="text/css"
+                  href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0"/>
+            <script type="text/javascript" id="hcb"> /*<!--*/
+            if (!window.hcb_user) {
+                hcb_user = {};
+            }
+            (function () {
+                var s = document.createElement("script"), l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"), h = "//www.htmlcommentbox.com";
+                s.setAttribute("type", "text/javascript");
+                s.setAttribute("src", h + "/jread?page=" + encodeURIComponent(l).replace("+", "%2B") + "&opts=16862&num=10&ts=1488801257210");
+                if (typeof s != "undefined") document.getElementsByTagName("head")[0].appendChild(s);
+            })();
+            /*-->*/ </script>
+            <!-- end www.htmlcommentbox.com -->
+        </div>
+
+        <!-- Pagination -->
+        <div class="w3-center w3-padding-32">
+            <div class="w3-bar">
+                <a href="{% url 'blog' %}" class="w3-bar-item w3-button w3-hover-black ">1</a>
+                <a href="{% url 'blog2' %}" class="w3-bar-item w3-button w3-hover-black">2</a>
+                <a href="{% url 'blog3' %}" class="w3-bar-item w3-button w3-hover-black">3</a>
+                <a href="{% url 'blog4' %}" class="w3-bar-item w3-button w3-hover-black">4</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-4">
+        <p>Visit me <a href="https://www.myspace.com">www.myspace.com/</a></p>
+        <div class="wrapper">
+            <i class="fa fa-5x fa-facebook-square"></i>
+            <i class="fa fa-5x fa-twitter-square"></i>
+            <i class="fa fa-5x fa-instagram"></i>
+            <i class="fa fa-5x fa-snapchat-square"></i>
+        </div>
+    </footer>
+
+{% endblock %}

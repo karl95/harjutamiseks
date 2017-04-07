@@ -1,0 +1,328 @@
+body {
+    background: white url("images/pilt.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.8;
+    color: lightyellow;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+Wrapper ehk insta fb'si ikoonide css!!
+ */
+
+.wrapper {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+i {
+    padding: 0px 10px 0px 10px;
+}
+
+.wrapper i:nth-child(1) {
+    color: #4867AA;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 150ms;
+}
+
+.wrapper i:nth-child(1):hover {
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
+}
+
+.wrapper i:nth-child(2) {
+    color: #1DA1F2;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 150ms;
+}
+
+.wrapper i:nth-child(2):hover {
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
+}
+
+.wrapper i:nth-child(3) {
+    color: #813DB4;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: all ease-in-out 150ms;
+}
+
+.wrapper i:nth-child(3):hover {
+    margin-top: -10px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+    transform: translate(0, -5);
+}
+
+.wrapper i:nth-child(4) {
+    color: #fffc00;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 150ms;
+}
+
+.wrapper i:nth-child(4):hover {
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
+}
+
+/*
+Wrapper ehk insta fb'si ikoonide cssi lõpp!!
+
+ */
+
+.bg-1 {
+    background-color: lightgreen; /* Green */
+    color: black;
+}
+
+.bg-2 {
+    background-color: #474e5d; /* Dark Blue */
+    color: white;
+}
+
+.bg-3 {
+    background-color: lightyellow; /* White */
+    color: black;
+}
+
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    color: #2f2f2f;
+    background-color: #2f2f2f;
+    box-sizing: inherit;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 5px;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    letter-spacing: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar-nav li a:hover {
+    color: lightskyblue !important;
+}
+
+.hero-unit {
+    margin-bottom: 200px;
+    color: honeydew;
+    font-weight: bold;
+    font-size: 150%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    position: relative;
+    left: 0px;
+    top: 20px;
+}
+
+.btnuser {
+    position: fixed;
+    left: 40px;
+    color: lightcoral;
+    size: 15px;
+}
+
+#my-box {
+    height: 600px;
+
+}
+
+.socialaccount_ballot {
+    color: sandybrown;
+    font-size: x-large;
+}
+
+.socialaccount_providers {
+    color: sandybrown;
+}
+
+.login {
+    font-weight: bold;
+    color: black;
+}
+
+h1 {
+    color: chartreuse;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    background-color: lightblue;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 300px) {
+    .navbar {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border: 5px;
+        border-radius: 0;
+        margin-bottom: 50px;
+        font-size: 10px;
+        letter-spacing: 5px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .navbar-nav li a:hover {
+        color: lightskyblue !important;
+    }
+
+    .btnuser {
+        position: fixed;
+        left: 5px;
+        font-size: 20px;
+        color: lightcoral;
+    }
+
+    .btn-info {
+        background-color: lightblue;
+        display: flex;
+        align-items: center
+    }
+}
+
+.btn-info {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+}
+
+.signup {
+    color: black;
+}
+
+.profile {
+    margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+    padding: 20px 0 10px 0;
+    background: #fff;
+}
+
+.profile-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+
+.profile-usertitle {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-usertitle-name {
+    color: #5a7391;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+    text-transform: uppercase;
+    color: #5b9bd1;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 15px;
+    margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+    margin-right: 0px;
+}
+
+.profile-usermenu {
+    margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+    border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+    color: #93a3b5;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+    background-color: #fafcfd;
+    color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+    border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+    color: #5b9bd1;
+    background-color: #f6f9fb;
+    border-left: 2px solid #5b9bd1;
+    margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+    padding: 20px;
+    background: #fff;
+    min-height: 460px;
+}
+
+
+
+
